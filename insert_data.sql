@@ -11,6 +11,7 @@ INSERT INTO clients (first_name, last_name) VALUES
 ('Sophia', 'Clark'),
 ('James', 'Lopez'),
 ('Ava', 'Davis');
+
 INSERT INTO clients_info (customerId, date_of_birth, address, phone_number, email) VALUES
 (1, '1990-03-12', '123 Main St, New York', '380971234567', 'alex.johnson@email.com'),
 (2, '1985-07-22', '45 Oak Ave, Chicago', '380632345678', 'maria.smith@email.com'),
@@ -22,6 +23,7 @@ INSERT INTO clients_info (customerId, date_of_birth, address, phone_number, emai
 (8, '1995-10-28', '43 Lake Blvd, Boston', '380731155789', 'sophia.clark@email.com'),
 (9, '1993-02-03', '98 Forest Way, Austin', '380501224411', 'james.lopez@email.com'),
 (10, '1999-08-14', '21 Park Ave, Phoenix', '380992341567', 'ava.davis@email.com');
+
 INSERT INTO accounts (accountId, customerId, balance, status, open_date) VALUES
 (1001, 1, 4500.00, 'Active', '2022-01-10'),
 (1002, 2, 12500.75, 'Active', '2021-09-12'),
@@ -33,6 +35,7 @@ INSERT INTO accounts (accountId, customerId, balance, status, open_date) VALUES
 (1008, 8, 410.00, 'Active', '2024-01-10'),
 (1009, 9, 5120.00, 'Active', '2023-10-05'),
 (1010, 10, 300.00, 'Closed', '2020-05-25');
+
 INSERT INTO transactions (customerId, transaction_time, transaction_type, description) VALUES
 (1, '2024-09-01 09:30:00', 'Deposit', 'Salary Deposit'),
 (1, '2024-09-15 10:00:00', 'Withdrawal', 'ATM Withdrawal'),
@@ -44,6 +47,7 @@ INSERT INTO transactions (customerId, transaction_time, transaction_type, descri
 (6, '2024-06-18 08:50:00', 'Deposit', 'Salary Deposit'),
 (7, '2024-07-07 16:10:00', 'Fee', 'Transfer Fee'),
 (8, '2024-05-12 12:00:00', 'Deposit', 'Cash Deposit');
+
 INSERT INTO LoanInfo (loan_accountId, loan_amount, monthly_payment, term_months) VALUES
 (1, 15000.00, 450.00, 36),
 (2, 5000.00, 150.00, 24),
